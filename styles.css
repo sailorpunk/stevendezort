@@ -214,16 +214,25 @@ i {
     align-items: center;
     text-align: center;
   }
+
+  .about {
+    height: auto;
+  }
 }
+
 
 @media screen and (min-width: 547px) {
   .about {
-    height: 100vh;
+    height: auto;
   }
 }
 
 @media screen and (max-height: 358px) {
   .landing {
+    height: auto;
+  }
+
+  .auto {
     height: auto;
   }
 }
