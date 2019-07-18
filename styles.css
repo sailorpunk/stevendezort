@@ -147,7 +147,7 @@ i {
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
+  display: none;
 }
 
 .text {
@@ -191,7 +191,7 @@ i {
 .triangle-white-top, .triangle-grey-top {
   display: flex;
   flex-direction: row;
-  align-self: flex-start;
+  align-self: flex-end;
   justify-content: center;
   width: 100%;
 }
@@ -204,11 +204,30 @@ i {
   color: #fafafa;
 }
 
+@media screen and (max-width: 336px) {
+  .landing {
+    height: auto;
+  }
+
+  .landing-copy {
+    padding-right: 10px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 547px) {
   .about {
     height: 100vh;
   }
 }
+
+@media screen and (max-height: 358px) {
+  .landing {
+    height: auto;
+  }
+}
+
 
 @media screen and (min-width: 600px) {
   .contact {
