@@ -241,7 +241,7 @@ i {
   }
 
   .landing, .two {
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: space-between;
